@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Train Activity</title>
+</head>
+
+<body>
+    <br>
+    <div class="container" id="column1">
+        <h1>Anytime is Train Time </h1>
+    </div>
+
+
+    <br>
+    <div class="container" id="column2">
+        <div class="row">
+            <table class="table table-hover table-dark">
+                <thead>
+                    <tr>
+                        <h4 class="topOf">Current Train Schedule</h4>
+                    </tr>
+                    <tr>
+                        <th scope="col">Train Name</th>
+                        <th scope="col">Destination</th>
+                        <th scope="col">Frequency (Mins)</th>
+                        <th scope="col">Next Arrival</th>
+                        <th scope="col">Minutes</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <th scope="row">Soul Train</th>
+                    <td>NJ</td>
+                    <td>30</td>
+                    <td>06:00</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <th scope="row">Choo Choo</th>
+                    <td>FL</td>
+                    <td>15</td>
+                    <td>02:00</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <th scope="row">YEE-HAW Express</th>
+                    <td>NY</td>
+                    <td>10</td>
+                    <td>01:00</td>
+                    <td>5</td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="container" id="column3">
+        <div class="row">
+            <tr>
+                <h4 class="topOf">Add Train</h4>
+            </tr>
+            <form class = "userInputForm">
+
+                <div class="form-group in-form">
+                    <label for=" formGroupExampleInput">Train Name</label>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="form-group in-form">
+                    <label for=" formGroupExampleInput2">Destination</label>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="form-group in-form">
+                    <label>First Train Time (HHmm - military time)</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group in-form">
+                    <label>Frequency (min)</label>
+                    <input type="text" class="form-control">
+                </div>
+                <br>
+                <div>
+                <button id = "submitButton" onclick="//DO NOT LEAVE BLANK">Submit</button>
+                </div>
+            </form>
+            
+        </div>
+
+    </div>
+    </div>
+
+
+    <!-- <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyCaEr695CLafr5VuPGrG_OOJnVwM4Oiklc",
+            authDomain: "choochootrain-ced2f.firebaseapp.com",
+            databaseURL: "https://choochootrain-ced2f.firebaseio.com",
+            projectId: "choochootrain-ced2f",
+            storageBucket: "choochootrain-ced2f.appspot.com",
+            messagingSenderId: "627206367136",
+            appId: "1:627206367136:web:b707d12dfc853867"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        //bottom text
+    </script> -->
+</body>
+
+</html>
