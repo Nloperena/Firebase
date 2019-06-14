@@ -1,14 +1,19 @@
 body {
     background-image: url(../images/random_grey_variations_@2X.png);
-    position:relative;
+    position: relative;
 }
 div h1 {
     text-align: center;
-    
     background-color:grey;
     border-top:solid;
     border-bottom: solid;
     border-radius: 100px;
+    position: relative;
+}
+
+h1 {
+    position: relative;
+    margin:20px;
 }
 
 div .row {
@@ -63,9 +68,8 @@ margin-bottom:30px;
 
 
 #column1{
-    margin:20px;
+    /* margin:20px; */
     border-radius: 1px;
-    position:;
 }
 
 #column2{
