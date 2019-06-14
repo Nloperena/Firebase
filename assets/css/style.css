@@ -1,0 +1,81 @@
+body {
+    background-image: url(../images/random_grey_variations_@2X.png);
+    position:relative;
+}
+div h1 {
+    text-align: center;
+    
+    background-color:grey;
+    border-top:solid;
+    border-bottom: solid;
+    border-radius: 100px;
+}
+
+div .row {
+    border-radius: 20px;
+}
+
+
+div .form-group {
+    background-color:gainsboro;    
+}
+
+.userInputForm {
+    position: relative;
+    width: 100%;
+    
+    
+}
+
+#submitButton {
+border-radius: 50px;
+position: relative;
+margin-bottom:30px;
+
+}
+
+.in-form{
+    margin:20px;
+    border:solid;
+    border-width: 3px;
+    border-radius: 5px;
+}
+
+.topOf{
+    
+    border-color:black;
+    position: relative;
+    width: 100%;
+    border-radius: 20px;
+    border-top:solid;
+}
+
+
+.inform {
+    width: 100%;
+    position: relative;
+    background-color:white;
+    z-index:1;
+    color:yellow;
+    margin:-10px;
+    
+}
+
+
+#column1{
+    margin:20px;
+    border-radius: 1px;
+    position:;
+}
+
+#column2{
+    background-color:darkgray;  
+    border-radius: 20px;
+    border-bottom:solid;
+}
+
+#column3 {
+    background-color:rgb(159, 195, 224);
+    position: relative;
+    border-radius: 20px;
+}
